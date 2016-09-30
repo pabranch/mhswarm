@@ -4,7 +4,8 @@ set -e
 
 export DIGITALOCEAN_IMAGE=debian-8-x64
 export DIGITALOCEAN_PRIVATE_NETWORKING=true
-export DIGITALOCEAN_REGION=sfo1
+#export DIGITALOCEAN_REGION=nyc1
+export DIGITALOCEAN_REGION=sfo2
 export NUM_WORKERS=3
 
 case "$1" in 

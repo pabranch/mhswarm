@@ -10,5 +10,5 @@ services:
   follower:
     image: rethinkdb
     mem_limit: "450m"
-    command: rethinkdb --join rethinkleader
+    command: rethinkdb --bind all --join rethinkleader
     restart: always
